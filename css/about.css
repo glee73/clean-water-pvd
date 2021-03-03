@@ -1,0 +1,71 @@
+.about--main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid #F0F0F0;
+    box-sizing: border-box;
+    font-family: Karla;
+}
+
+.project--leads {
+    width: 100%;
+    height: 40vh;
+}
+
+.project--leads p{
+    width: 196px;
+    height: 37px;
+    font-size: 32px;
+    line-height: 30px;
+    margin-left: 800px;
+}
+
+.project--leads--imgs {
+    width: 50vw;
+    height: 25vh;
+    display: flex;
+    margin-left: 400px;
+    justify-content: space-evenly
+}
+
+.project--leads--imgs img {
+    width: 200px;
+    height: 200px;
+    margin-top: 26px;
+    background: #E5EEFE;
+    border-radius: 100px;
+    
+   
+}
+
+.analysts {
+    width: 100%;
+    height: 40vh;
+}
+
+.analysts p{
+    width: 196px;
+    height: 37px;
+    font-size: 32px;
+    line-height: 30px;
+    margin-left: 800px;
+}
+
+.analysts--imgs {
+    width: 50vw;
+    height: 25vh;
+    display: flex;
+    margin-left: 400px;
+    justify-content: space-evenly
+}
+
+.analysts--imgs img {
+    width: 200px;
+    height: 200px;
+    margin-top: 26px;
+    background: #E5EEFE;
+    border-radius: 100px;
+    
+   
+}
