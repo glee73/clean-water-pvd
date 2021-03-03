@@ -9,6 +9,7 @@ header {
     top: 0px;
     border-bottom: 3px solid #F0F0F0;
     box-sizing: border-box;
+}
 
 .header--title{
     width: 30vw;  
