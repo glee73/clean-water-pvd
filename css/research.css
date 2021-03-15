@@ -10,30 +10,38 @@
     overflow: auto;
 }
 
-.research--content {
-    width: 95%;
-    height: auto;
-    margin-top: 5px;
+
+.research--body {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-left: 15px;
-
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.research--content--title {
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+.research--body img {
+    width: 400px;
+    height: 400px;
+    margin-right: 200px;
 }
+.research--title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.research--title img {
+    margin-right: 200px;
+    width: 300px;
+    height: 300px;
+}
+
+
+
 
 .research--content--text {
-    width: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
+    margin-right: 50px;
 }
 
 .research--content--links {
@@ -42,6 +50,7 @@
     margin-left: 10px;
     justify-content: space-evenly;
     font-style: italic;
+    margin-top: 10px;
 }
 
 .right--arrow {
@@ -49,15 +58,20 @@
 
 }
 
+.research--content--cities {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    
+}
 .research--content--cities--text {
-    width: 25vw;
+    width: 20vw;
     height: 500px;
     background-color: #E5EEFE;
     border-radius: 15px;
     margin-bottom: 10px;
     margin-left: 10px;
 }
-
 
 
 .research--content--cities--text p {
@@ -67,17 +81,41 @@
 
 
 
-.research--content--cities {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+
 
 .research--content--stakeholder{
-    width: 94vw;
+    width: 97%;
     height: 500px;
     background-color: #E5EEFE;
     border-radius: 15px;
     margin-bottom: 10px;
     margin-left: 10px;
+    margin-top: 10px;
 }
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 95%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-left: 25px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    margin-left: 10px;
+    width: 92%;
+  }

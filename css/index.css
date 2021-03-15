@@ -27,11 +27,16 @@ body {
 .body--introduction--pic img{
     width: 350px;
     border-radius: 200px;
-    background-color: lightsteelblue;
     height: 100%;
     margin-left: 250px
 }
 
+.body--content--pic img{
+    width: 350px;
+    border-radius: 200px;
+    height: 100%;
+    margin-left: 250px
+}
 
 .body--introduction--text {
     width: 50%;
@@ -86,3 +91,8 @@ body {
     margin-left: 25px;
     width: 80%
   }
+
+  .right--arrow {
+    content: "\2192";
+
+}
