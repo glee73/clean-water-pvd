@@ -24,10 +24,6 @@ body {
     margin-right: 100px;
 }
 
-.body--introduction--pic > img {
-    width: 100%;
-}
-
 .body--content--pic img{
     width: 350px;
     border-radius: 200px;
