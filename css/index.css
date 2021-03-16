@@ -69,13 +69,13 @@ body {
 
 .body--content--main {
     width: 50vw;
-    height: 50vh;
+    height: auto;
 
 }
 
 .body--content--faq {
     width: 50vw;
-    height: 50vh;
+    height: auto;
     display: flex;
     flex-direction: column;
 
