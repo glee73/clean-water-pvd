@@ -1,76 +1,67 @@
 header {
-    width: 100%;
     display: flex;
     flex-direction: row;
-    font-family: 'Karla';
     font-weight: bold;
-    height: 10vh;
-    left: 0px;
-    top: 0px;
+    height: 60px;
     border-bottom: 3px solid #F0F0F0;
     box-sizing: border-box;
 }
 
 .header--title{
-    width: 30vw;  
+    width: 30%;  
     font-size: 1.5em;   
-    height: 10vh;
     display: flex;
     flex-direction: row;
 }
 
 .header--title p {
     width: 332.54px;
-    height: 40.6px;
     margin-left: 10px;
-    font-family: Karla;
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 22px;
-
+    position: relative;
+    bottom: 10px;
 }
 
 
 .header--logo img{
-    width: 70px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 6px;
 }
 
 
 .header--menu {
     display: flex;
     justify-content: flex-end ;
-    width: 90vw;
+    width: 70%;
     flex-direction: row;
-    margin-right: 20px;
 }
 
 
 .home {
     width: 10%;
-    height: 100%;
-    text-align: center;
     font-size: 22px;
     line-height: 75px;
     text-decoration-line: underline;
+
 }
 
 
 .research {
-    width: 10%;
-    height: 100%;
-    text-align: center;
+    width: 11%;
     font-size: 22px;
     line-height: 75px;
     text-decoration-line: underline;
+
 }
 
 .data{
     width: 10%;
-    height: 100%;
     text-align: center;
     font-size: 22px;
     line-height: 75px;
@@ -78,9 +69,7 @@ header {
 }
 
 .about {
-    width: 6%;
-    height: 100%;
-    text-align: center; 
+    width: 10%;
     font-size: 22px;
     line-height: 75px;
     text-decoration-line: underline;
