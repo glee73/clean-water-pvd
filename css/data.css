@@ -10,10 +10,8 @@ body {
     width: 100%;
     height: auto;
     display: flex;
-    border-bottom: 3px solid #F0F0F0;
     box-sizing: border-box;
-
-
+    border: 1px solid black;
 }
 
 .data--content {
@@ -62,4 +60,11 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
