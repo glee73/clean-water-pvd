@@ -6,9 +6,14 @@ header {
     height: 12vh;
     left: 0px;
     top: 0px;
-    border-bottom: 3px solid #F0F0F0;
+    border-bottom: 2px solid #F0F0F0;
     box-sizing: border-box;
     padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .header--title{
@@ -18,17 +23,15 @@ header {
 }
 
 .header--title p {
-    font-size: 1.6em;
     font-weight: bold;
-    width: 300px;
+    width: 250px;
     margin-left: 10px;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 22px;
 
 }
-
 
 .header--logo {
     margin-left: 15px;
@@ -36,10 +39,9 @@ header {
     align-items: center;
 }
 
-.logo {
+.header--logo, .logo {
     width: 60px;
 }
-
 
 .header--menu {
     display: flex;
@@ -54,11 +56,6 @@ header {
   margin-left: 35px;
   padding-top: 8px;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 23px;
   line-height: 75px;
-  text-decoration-line: underline;
-}
-
-.nav-link > a:hover, a:active, a:visited {
-  color: black;
 }

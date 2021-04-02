@@ -6,9 +6,14 @@ body {
     overflow: scroll;
 }
 
+.research--title p {
+  margin-left: 40px;
+  margin-top: 50px;
+  font-size: 1.8em;
+}
+
 .research--main{
-    width: 100%;
-    height: auto;
+    min-height: 88vh;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -18,6 +23,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.accordion-container {
+  width: 100%;
 }
 
 .research--body img {
@@ -35,22 +44,20 @@ body {
 }
 
 
-
-
 .research--content--text {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 50px;
 }
 
 .research--content--links {
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 30px;
     justify-content: space-evenly;
     font-style: italic;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .right--arrow {
@@ -61,56 +68,32 @@ body {
 .research--content--cities {
     display: flex;
     margin-top: 10px;
-    justify-content: space-evenly;
-
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+
 .research--content--cities--text {
-    width: 20vw;
-    height: 500px;
-    background-color: #E5EEFE;
+    width: 95%;
+    border: 2px solid #F0F0F0;
     border-radius: 15px;
     margin-bottom: 10px;
-    margin-left: 10px;
 }
 
+.research--content--cities--text li {
+    margin-right: 20px;
+}
 
 .research--content--cities--text p {
     width: 80%;
-    margin-left: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-
-
-
-
-.research--content--stakeholder{
-    width: 97%;
-    height: 500px;
-    background-color: #E5EEFE;
-    border-radius: 15px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
+.four-cities {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-
-.accordion {
-    background-color: #E5EEFE;
-    cursor: pointer;
-    padding: 18px;
-    width: 90%;
-    border: none;
-    border-radius: 20px;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-    margin-left: 25px;
-    margin-bottom: 5px;
-  }
-
-  .active, .accordion:hover {
-    background-color: #ccc;
-  }
 
   .panel {
     padding: 0 18px;
@@ -118,7 +101,7 @@ body {
     background-color: white;
     overflow: hidden;
     margin-left: 10px;
-    width: 92%;
+    width: 95%
   }
 
   .flex-wrapper {
