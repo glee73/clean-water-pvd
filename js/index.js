@@ -27,7 +27,6 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-
 window.onload = () => {
             let fade = document.getElementsByClassName("fade-in")[0];
             let opacity = 0;

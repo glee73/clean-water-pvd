@@ -8,6 +8,10 @@
   100% { opacity: 1 }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: auto;
     display: flex;

@@ -45,7 +45,7 @@
             </a>
         </p>
 
-        <p class="hyperlink">
+        <p class="hyperlink faq-link">
           <a href="#faq" class="shortcut">
             <em> Click to view lead pipes FAQ </em>
             <span class="right--arrow"> &#8594; </span>
@@ -61,7 +61,7 @@
   </a>
 
 
-    <div class="body--content">
+    <div class="body--content fade-in-on-scroll">
     <a name="faq"></a>
     <section class="body--content--main">
         <p class="sub-header"> Why are lead pipes dangerous? </p>
@@ -172,5 +172,33 @@ Contact Providence Water
     </footer>
 
     <script src="js/index.js"> </script>
+    
+    <script type="text/javascript">
+    let widget = document.getElementsByClassName("scroll-prompt-container")[0];
+    let faqLink = document.getElementsByClassName("faq-link")[0];
+
+    function fadeInOnScroll() {
+      let opacity = 0;
+      let intervalID = setInterval(function() {
+
+        let fade = document.getElementsByClassName("fade-in-on-scroll")[0];
+
+          if (opacity < 1) {
+              opacity = opacity + 0.15
+              fade.style.opacity = opacity;
+          } else {
+              clearInterval(intervalID);
+          }
+      }, 165);
+    }
+
+    widget.onclick = () => {
+      fadeInOnScroll();
+    }
+
+    faqLink.onclick = () => {
+      fadeInOnScroll();
+    }
+    </script>
 </body>
 </html>
