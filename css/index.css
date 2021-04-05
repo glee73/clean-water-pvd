@@ -19,6 +19,8 @@ body {
     height: 100%;
     width: 100%;
     opacity: 0;
+    font-size: 1.05em;
+    line-height: 1.2;
 }
 
 .hyperlink {
@@ -97,12 +99,15 @@ body {
 
 }
 
+.lead-blurb {
+  padding-bottom: 250px;
+}
+
 .body--content--faq {
     width: 50vw;
     height: auto;
     display: flex;
     flex-direction: column;
-
 }
 
 .accordion {
@@ -114,13 +119,13 @@ body {
     border-radius: 20px;
     text-align: left;
     outline: none;
-    font-size: 15px;
     transition: all 0.5s ease-out;
     margin-left: 25px;
     margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.0em;
   }
 
   .accordion:hover {
@@ -133,7 +138,7 @@ body {
 
   .accordion:after{
     content: "+";
-    font-size: 25px;
+    font-size: 1.1em;
     color: "black";
     margin-left: 5px;
     outline: none;

@@ -74,9 +74,11 @@ body {
 
 .research--content--cities--text {
     width: 95%;
-    border: 2px solid #F0F0F0;
     border-radius: 15px;
-    margin-bottom: 10px;
+}
+
+.research--content--cities--text:last-of-type {
+    padding-bottom: 15px;
 }
 
 .research--content--cities--text li {

@@ -54,7 +54,7 @@ a {
 }
 
 .header--logo {
-    margin-left: 15px;
+    /* margin-left: 15px; */
     display: flex;
     align-items: center;
 }
