@@ -19,13 +19,12 @@ a {
 }
 
 .nav-link > a {
-  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  background: linear-gradient(to bottom, var(-mainColor) 0%, var(-mainColor) 100%);
   	background-position: 0 100%;
   	background-repeat: repeat-x;
   	background-size: 3px 3px;
     color: #000;
     text-decoration: none;
-
 }
 
 .nav-link > a:hover {
@@ -36,13 +35,13 @@ a {
   text-decoration: none;
 }
 
-.header--title{
+.header-title{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.header--title p {
+.header-title p {
     font-weight: bold;
     width: 250px;
     margin-left: 10px;
@@ -53,17 +52,17 @@ a {
 
 }
 
-.header--logo {
-    margin-left: 15px;
+.header-logo {
+    /* margin-left: 15px; */
     display: flex;
     align-items: center;
 }
 
-.header--logo, .logo {
+.header-logo, .logo {
     width: 60px;
 }
 
-.header--menu {
+.header-menu {
     display: flex;
     justify-content: flex-end;
     width: 90vw;
