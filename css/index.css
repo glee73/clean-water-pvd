@@ -25,15 +25,15 @@ body {
 
 .hyperlink {
   transition: transform 200ms, opacity 400ms;
+  margin-bottom: 5px;
 }
 
 .hyperlink:hover {
   transform: translateY(-1px);
-
   opacity: 0;
 }
 
-.body--introduction {
+.body-introduction {
     height: 75vh;
     margin: auto;
     padding-top: 100px;
@@ -44,23 +44,23 @@ body {
     animation: init-fade 1.5s linear;
 }
 
-.body--introduction--pic {
+.body-introduction-pic {
     margin-right: 100px;
 }
 
-.body--introduction--pic > img {
+.body-introduction-pic > img {
     width: 100%;
 
 }
 
-.body--content--pic img{
+.body-content-pic img{
     width: 350px;
     border-radius: 200px;
     height: 100%;
     margin-left: 200px
 }
 
-.body--introduction--text {
+.body-introduction-text {
   padding-top: 60px;
   width: 45%;
 }
@@ -83,7 +83,7 @@ body {
   text-decoration: none;
 }
 
-.body--content {
+.body-content {
   margin: auto;
   width: 95%;
   min-height: 100vh;
@@ -93,7 +93,7 @@ body {
   margin-top: 10px;
 }
 
-.body--content--main {
+.body-content-main {
     width: 50vw;
     height: auto;
 
@@ -103,7 +103,7 @@ body {
   padding-bottom: 250px;
 }
 
-.body--content--faq {
+.body-content-faq {
     width: 50vw;
     height: auto;
     display: flex;
@@ -169,8 +169,14 @@ body {
     animation: init-fade 0.7s linear;
   }
 
-  .right--arrow {
+  .right-arrow {
     content: "\2192";
+}
+
+.back-to-top {
+  align-self: flex-end;
+  padding-right: 10%;
+  padding-top: 5%;
 }
 
 .flex-wrapper {
@@ -191,10 +197,9 @@ body {
   padding-bottom: 50px;
 }
 
-.scroll-prompt-container, .body--content, .body-introduction {
+.scroll-prompt-container, .body-content {
   animation: init-fade 1s linear;
 }
-
 
 body::-webkit-scrollbar {
     width: 15px;  /* for vertical scrollbars */

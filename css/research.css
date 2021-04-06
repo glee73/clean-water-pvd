@@ -6,20 +6,20 @@ body {
     overflow: scroll;
 }
 
-.research--title p {
+.research-title p {
   margin-left: 40px;
   margin-top: 50px;
   font-size: 1.8em;
 }
 
-.research--main{
+.research-main{
     min-height: 88vh;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
 }
 
-.research--body {
+.research-body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -29,29 +29,29 @@ body {
   width: 100%;
 }
 
-.research--body img {
+.research-body img {
     width: 300px;
     height: 300px;
     margin-left: 50px;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 
-.research--title img {
+.research-title img {
     margin-right: 200px;
     width: 300px;
     height: 300px;
 }
 
 
-.research--content--text {
+.research-content-text {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 20px;
     margin-right: 50px;
 }
 
-.research--content--links {
+.research-content-links {
     display: flex;
     flex-direction: column;
     margin-left: 30px;
@@ -60,32 +60,32 @@ body {
     margin-top: 25px;
 }
 
-.right--arrow {
+.right-arrow {
     content: "\2192";
 
 }
 
-.research--content--cities {
+.research-content-cities {
     display: flex;
     margin-top: 10px;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.research--content--cities--text {
+.research-content-cities-text {
     width: 95%;
     border-radius: 15px;
 }
 
-.research--content--cities--text:last-of-type {
+.research-content-cities-text:last-of-type {
     padding-bottom: 15px;
 }
 
-.research--content--cities--text li {
+.research-content-cities-text li {
     margin-right: 20px;
 }
 
-.research--content--cities--text p {
+.research-content-cities-text p {
     width: 80%;
     margin-left: 20px;
     margin-right: 20px;
@@ -111,4 +111,69 @@ body {
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  #explainer-link, #newark-link, #case-study-link, #presentation-link {
+    cursor: pointer;
+  }
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border-radius: 20px;
+    width: 80%; /* Could be more or less, depending on screen size */
+    height: 80%;
+  }
+
+  /* The Close Button */
+  .close {
+    color: black;
+    float: right;
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
+  .close {
+    background: linear-gradient(to bottom, var(-mainColor) 0%, var(-mainColor) 100%);
+    	background-position: 0 100%;
+    	background-repeat: repeat-x;
+    	background-size: 3px 3px;
+      color: #000;
+      text-decoration: none;
+  }
+
+  .see-more {
+    padding-bottom: 8px;
+    width: 30%;
+  }
+
+  .close:hover, .see-more:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .pdf {
+    width: 100%;
+    height: 500px;
   }
