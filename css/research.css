@@ -7,9 +7,9 @@ body {
 }
 
 .research-title p {
-  margin-left: 40px;
+  margin-left: 35px;
   margin-top: 50px;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 .research-main{
@@ -57,7 +57,8 @@ body {
     margin-left: 30px;
     justify-content: space-evenly;
     font-style: italic;
-    margin-top: 25px;
+    margin-top: 40px;
+    font-size: 0.95em;
 }
 
 .right-arrow {
@@ -70,6 +71,11 @@ body {
     margin-top: 10px;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+#quick-link-header {
+  font-style: normal;
+  margin-bottom: 15px;
 }
 
 .research-content-cities-text {
@@ -145,7 +151,7 @@ body {
   .close {
     color: black;
     float: right;
-    font-size: 1.2em;
+    font-size: 1.0em;
     padding-bottom: 5px;
     margin-bottom: 10px;
   }
