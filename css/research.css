@@ -121,7 +121,7 @@ body {
 
   #explainer-link, #newark-link, #case-study-link, #presentation-link {
     cursor: pointer;
-    width: 50px;
+    width: 30%;
   }
 
   /* The Modal (background) */
