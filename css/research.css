@@ -121,9 +121,9 @@ body {
 
   #explainer-link, #newark-link, #case-study-link, #presentation-link {
     cursor: pointer;
+    width: 30%;
   }
 
-  /* The Modal (background) */
   .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -137,17 +137,15 @@ body {
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
 
-  /* Modal Content/Box */
   .modal-content {
     background-color: #fefefe;
-    margin: 5% auto; /* 15% from the top and centered */
+    margin: 5% auto; /* from the top and centered */
     padding: 20px;
     border-radius: 20px;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 80%;
     height: 80%;
   }
 
-  /* The Close Button */
   .close {
     color: black;
     float: right;
@@ -158,11 +156,11 @@ body {
 
   .close {
     background: linear-gradient(to bottom, var(-mainColor) 0%, var(-mainColor) 100%);
-    	background-position: 0 100%;
-    	background-repeat: repeat-x;
-    	background-size: 3px 3px;
-      color: #000;
-      text-decoration: none;
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    color: #000;
+    text-decoration: none;
   }
 
   .see-more {
