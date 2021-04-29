@@ -119,7 +119,7 @@ body {
     justify-content: space-between;
   }
 
-  #explainer-link, #newark-link, #case-study-link, #presentation-link {
+  #explainer-link, #newark-link, #case-study-link, #presentation-link, #loan-link {
     cursor: pointer;
     width: 30%;
   }
