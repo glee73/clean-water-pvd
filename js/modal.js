@@ -2,7 +2,7 @@
 let argsList = [["explainer", "explainer-link", "exit-explainer"],
            ["presentation", "presentation-link", "exit-presentation"],
            ["newark", "newark-link", "exit-newark"],
-           ["case-study", "case-study-link", "exit-case-study"]];
+           ["case-study", "case-study-link", "exit-case-study"], ["loan", "loan-link", "exit-loan"]];
 
 argsList.map(x => setUpModal(x));
 
