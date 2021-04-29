@@ -6,9 +6,9 @@ header {
     height: 90px;
     left: 0px;
     top: 0px;
-    border-bottom: 2px solid #F0F0F0;
     box-sizing: border-box;
     padding-left: 20px;
+    box-shadow: 1px 1px 10px #e3e4e6;
 }
 
 a {
@@ -53,7 +53,6 @@ a {
 }
 
 .header-logo {
-    /* margin-left: 15px; */
     display: flex;
     align-items: center;
 }
