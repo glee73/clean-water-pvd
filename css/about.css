@@ -21,7 +21,7 @@ body {
 
 .about-us {
   margin: auto;
-  padding: 25px 25px 40px 25px;
+  padding: 25px 25px 25px 25px;
   text-align: left;
   font-size: 18px;
   width: 80%;
@@ -34,7 +34,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   padding-bottom: 50px;
-  padding-top: 10px;
+  padding-top: 50px;
   margin: auto;
   width: 90%;
 }
