@@ -1,6 +1,6 @@
 # clean-water-pvd
 
-domain no longer exists! 
+website domain no longer exists! 
 
 but here's a [figma prototype](https://tinyurl.com/clean-water-pvd-figma) of what the website looked like.
 
